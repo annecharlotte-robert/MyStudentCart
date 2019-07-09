@@ -1,0 +1,126 @@
+* {
+  letter-spacing: 1px;
+}
+
+#canvas {
+}
+
+header {
+  padding: 30px;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif !important;
+  font-weight: 300;
+  font-size: 40px;
+  color: #003399;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Dosis", sans-serif !important;
+  font-weight: 300;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #66c2cc;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-family: "Dosis", sans-serif !important;
+  font-weight: 500;
+  font-size: 20px;
+  color: #66c2cc;
+  line-height: 22px;
+  padding-bottom: 10px;
+}
+
+p {
+  font-family: "Dosis", sans-serif !important;
+  font-weight: 300;
+  font-size: 18px;
+  color: #003399;
+  line-height: 22px;
+  padding-bottom: 20px;
+}
+
+ul {
+  font-family: "Dosis", sans-serif !important;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media screen and (min-width: 320px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+section {
+  font-family: "Dosis", sans-serif !important;
+  margin: 30px;
+  padding: 30px;
+  border: solid 2px #66c2cc;
+  border-radius: 20px;
+}
+
+.skills {
+  font-family: "Dosis", sans-serif !important;
+  background-color: #66c2cc;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+footer {
+  margin: 30px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#profil_pic {
+  border-radius: 100%;
+  display: block;
+  width: 12%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+/* 
+div {
+  margin: 10px;
+} */
+
+.icons {
+  width: 5vw;
+  border-radius: 100px;
+}
+
+#main_section {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (min-width: 320px) {
+  #main_section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+#about_me {
+  width: 50vw;
+}
+
+#portfolio {
+  width: 50vw;
+}
