@@ -54,14 +54,15 @@ ul {
   text-transform: uppercase;
   line-height: 30px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 900px) {
   ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }
 
@@ -91,7 +92,7 @@ footer {
 #profil_pic {
   border-radius: 100%;
   display: block;
-  width: 12%;
+  width: 12vw;
   margin: auto;
   margin-bottom: 30px;
 }
@@ -101,16 +102,28 @@ div {
 } */
 
 .icons {
-  width: 5vw;
+  width: 8vw;
   border-radius: 100px;
 }
 
 #main_section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 901px) {
+  #main_section {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #about_me,
+  #portfolio {
+    width: fit-content !important;
+  }
+
   #main_section {
     display: flex;
     flex-direction: column;
@@ -120,7 +133,6 @@ div {
 #about_me {
   width: 50vw;
 }
-
 #portfolio {
   width: 50vw;
 }
